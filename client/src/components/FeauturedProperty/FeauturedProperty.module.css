@@ -1,0 +1,76 @@
+.feauturedProperty{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.feauturedPropertyItem{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.feauturedPropertyItem img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.feauturedPropertyDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-top: 10px;
+}
+.feauturedPropertyDetails span{
+    color: #262626;
+    font-size: 14px;
+}
+.feauturedPropertyDetails span:first-child{
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.feauturedPropertyDetails span:nth-child(2){
+    text-transform: capitalize;
+}
+.feauturedPropertyDetails h2{
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+.feauturedReviews{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.feauturedReviews button{
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    background: #003580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px 5px 5px 0px;
+}
+.feauturedReviews h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    margin-right: 5px;
+}
+.feauturedReviews span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6d6d6d;
+}

@@ -1,0 +1,87 @@
+.reserveModal{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.693);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservedContainer{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+}
+
+.rClose{
+    position: absolute;
+    right:0;
+    top: 0;
+    padding: 20px;
+    color: #000;
+    font-size: 22px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rClose:hover{
+    color: red;
+}
+.rItem{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.rItemInfo{
+    display: flex;
+    flex-direction: column;
+}
+.rItemInfo h2{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+}
+.rItemInfo span{
+    font-size: 12px;
+    font-weight: 300;
+}
+.rItemInfo p{
+    font-size: 12px;
+    font-weight: 300;
+}
+.rItemRoom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.roomNumberContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.roomNumberContainer label{
+    font-size: 10px;
+}
+.reserveButton{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #0071c2;
+    padding: 8px 20px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+.reserveButton:hover{
+    background: #0084e2;
+}
+.roomNumberContainer input:disabled{
+    cursor: not-allowed;
+}

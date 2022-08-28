@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 12px;
+    margin-top: 20px;
+  }
+  .footerLists{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+  }
+  .footerList{
+      list-style: none;
+      padding: 0;
+  }
+  .footerItem{
+      margin-bottom: 10px;
+      color: #003580;
+      cursor: pointer;
+  }
+  .footerItem:hover{
+    text-decoration: underline;
+  }
+  .footerText{
+      margin-bottom: 20px;
+  }

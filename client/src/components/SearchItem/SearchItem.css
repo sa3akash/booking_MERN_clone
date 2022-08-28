@@ -1,0 +1,142 @@
+.searchItemContainer{
+    border: 1px solid #caddfa;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+.searchItemContainer.active, .searchItemContainer:hover{
+    background: #EBF3FF;
+    filter: drop-shadow(0px 0px 40px #EBF3FF);
+}
+.searchImg{
+    flex: 1;
+    border-radius: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+.searchDesc{
+    flex: 2;
+    margin-right: 10px;
+}
+.searchDetail{
+    flex: 1;
+}
+.searchImg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.searchDesc{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+.SearchFeauture{
+    display: flex;
+    flex-direction: column;
+}
+.searchTitle{
+    font-size: 18px;
+    color: #0071C2;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.searchDistance,.searchDistanceBeach,.searchTax{
+    font-size: 13px;
+    color: #6b6b6b;
+    font-weight: 300;
+    margin-left: 5px;
+}
+.SearchFeauture{
+    margin: 5px 0;
+    border-left: 1px solid rgb(206, 199, 199);
+    padding-left: 10px;
+}
+.SearchFeauture span{
+    color: #6b6b6b;
+    font-size: 14px;
+}
+.searchF1{
+    font-weight: 500;
+    color: #262626 !important;
+}
+.searchF2{
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.searchF3{
+    font-weight: bold;
+    color: #006607 !important;
+    font-size: 13px !important;
+}
+.searchF4{
+    color: #CC0000 !important;
+    font-size: 12px !important;
+    font-weight: bold;
+}
+
+.searchDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.searchDetailTop{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.searchScore{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.searchScore .reviesScore{
+    font-weight: bold;
+    color: #4C5050;
+}
+.searchScore .viewsScore{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6b6b6b;
+}
+.searchScoreButton{
+    border: none;
+    padding: 10px;
+    background: #003580;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 0px;
+}
+.searchDetailBottom{
+     display: flex;
+     flex-direction: column;justify-content: flex-end;
+     text-align: right;
+     gap: 5px;
+     height: 100%;
+}
+.searchDetailBottom span{
+    color: #6b6b6b;
+    font-size: 12px;
+    font-weight: 400;
+}
+.searchDetailBottom h3{
+    font-weight: 500;
+}
+.searchDetailBottom button{
+    background: #0071C2;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.searchDetailBottom button:hover{
+    background: #262626;
+}
